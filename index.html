@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>online shopping</title>
+</head>
+
+<body>
+    <div class="holder">
+        <h2> Online shopping</h2>
+        <div class="form_holder">
+            <label for="name">Firstname:</label>
+            <input type="text" id="firstname" placeholder="Enter your firstname" required>
+
+            <label for="name">lastname:</label>
+            <input type="text" id="lastname" placeholder="Enter your lastname">
+
+            <label for="select">Select Items:</label>
+            <select id="items" required>
+                <option value="books">Books</option>
+                <option value="foods">Food</option>
+                <option value="clothes">Clothes</option>
+                <option value="cars">Cars</option>
+                <option value="phones">Phones</option>
+                <option value="properties">properties</option>
+
+            </select>
+            <button onclick="onlineShopping()">Click here</button>
+            <div id="result">Result</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
